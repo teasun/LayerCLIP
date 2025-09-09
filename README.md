@@ -2,7 +2,6 @@
 
 ## Preparing Datasets
 ### PASCAL VOC2012
-Download images in PASCAL VOC2012 dataset at [here](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) and the train_aug groundtruth at [here](https://www.dropbox.com/s/oeu149j8qtbs1x0/SegmentationClassAug.zip?dl=0).
 The structure of `/your_home_dir/datasets/VOC2012`should be organized as follows:
 
 ```
@@ -15,8 +14,6 @@ The structure of `/your_home_dir/datasets/VOC2012`should be organized as follows
 ```
 
 ### MS COCO2014
-Download MS COCO images from the [official website](https://cocodataset.org/#download).
-Download semantic segmentation annotations for the MS COCO dataset at [here](https://drive.google.com/file/d/1pRE9SEYkZKVg0Rgz2pi9tg48j7GlinPV/view?usp=sharing).
 The structure of `/your_home_dir/datasets/COCO2014`are suggested to be organized as follows:
 ```
 ---COCO2014/
