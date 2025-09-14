@@ -43,7 +43,7 @@ python generate_cams_coco14.py --img_root /your_home_dir/datasets/COCO2014/JPEGI
 python eval_cam_with_crf.py --cam_out_dir ./output/voc12/cams --gt_root /your_home_dir/datasets/VOC2012/SegmentationClassAug --image_root /your_home_dir/datasets/VOC2012/JPEGImages --split_file ./voc12/train_aug.txt --pseudo_mask_save_path ./output/voc12/pseudo_masks
 ## for COCO14
 python eval_cam_with_crf.py --cam_out_dir ./output/coco14/cams --gt_root /your_home_dir/datasets/COCO2014/SegmentationClass --image_root /your_home_dir/datasets/COCO2014/JPEGImages/train2014 --split_file ./coco14/train.txt --pseudo_mask_save_path ./output/coco2014/pseudo_masks
-
+```
 ## References
 This repo is mainly built based on SSP and AENet. Thanks for their great work!
 ## BibTeX
