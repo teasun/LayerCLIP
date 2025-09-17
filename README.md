@@ -1,5 +1,7 @@
 # LayerCLIP: A Fine-Grained Class Activation Map for Weakly Supervised Semantic Segmentation
 
+![images](LayerCLIP.png)
+
 ## Preparing Datasets
 ### PASCAL VOC2012
 The structure of `/your_home_dir/datasets/VOC2012`should be organized as follows:
