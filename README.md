@@ -45,7 +45,7 @@ python eval_cam_with_crf.py --cam_out_dir ./output/voc12/cams --gt_root /your_ho
 python eval_cam_with_crf.py --cam_out_dir ./output/coco14/cams --gt_root /your_home_dir/datasets/COCO2014/SegmentationClass --image_root /your_home_dir/datasets/COCO2014/JPEGImages/train2014 --split_file ./coco14/train.txt --pseudo_mask_save_path ./output/coco2014/pseudo_masks
 ```
 ## References
-This repo is mainly built based on CLIP_ES and We_CLIP. Thanks for their great work!
+This repo is mainly built based on [CLIP-ES](https://github.com/linyq2117/CLIP-ES) and [WeCLIP](https://github.com/zbf1991/WeCLIP). Thanks for their great work!
 ## BibTeX
 If you find our work and this repository useful. Please consider giving a star and citation.
 
